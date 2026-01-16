@@ -1,3 +1,4 @@
 aiogram
 easyocr
 opencv-python-headless
+aiosqlite

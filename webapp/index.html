@@ -22,7 +22,23 @@
         </select>
 
         <label for="category">Категория</label>
-        <input type="text" id="category" placeholder="Например: Такси, Супермаркеты">
+        <input type="text" id="category" list="category-list" placeholder="Например: Такси, Супермаркеты">
+        <datalist id="category-list">
+            <option value="Супермаркеты">
+            <option value="Рестораны и фастфуд">
+            <option value="Такси">
+            <option value="Аптеки">
+            <option value="АЗС">
+            <option value="Одежда и обувь">
+            <option value="Дом и ремонт">
+            <option value="Техника">
+            <option value="Развлечения">
+            <option value="Транспорт">
+            <option value="Здоровье">
+            <option value="Красота">
+            <option value="Путешествия">
+            <option value="Цветы">
+        </datalist>
 
         <label for="percent">Процент (%)</label>
         <input type="number" id="percent" placeholder="5" inputmode="numeric">
