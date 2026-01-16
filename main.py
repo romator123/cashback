@@ -29,7 +29,7 @@ os.makedirs(TEMP_DIR, exist_ok=True)
 # --- ВАЖНО: ВСТАВЬ СЮДА URL СВОЕГО WEB APP (HTTPS) ---
 # Если тестируешь локально, используй ngrok URL, например: "https://xxxx-xx-xx.ngrok-free.app/webapp/index.html"
 # Для GitHub Pages это будет: "https://username.github.io/repo/webapp/index.html"
-WEBAPP_URL = "https://roman.github.io/cashback/webapp/index.html" 
+WEBAPP_URL = "https://romator123.github.io/cashback/webapp/index.html" 
 
 @dp.message(Command("start"))
 async def cmd_start(message: types.Message):
